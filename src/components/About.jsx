@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Navbar from "./Navbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter, faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import dgvj from "../assets/dgvj.jpg"; // Make sure this image path is correct
+import dgvj from "../assets/dgvj.jpg"; 
 
 const About = () => {
   const [showMore, setShowMore] = useState(false);
