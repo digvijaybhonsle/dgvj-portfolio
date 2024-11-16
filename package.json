@@ -3,13 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/digvijaybhonsle/dgvj-portfolio",
+  "homepage": "https://digvijaybhonsle.github.io/dgvj-portfolio",
   "scripts": {
     "start": "vite",
     "build": "vite build",
-    "preview": "vite preview",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.6.0",
@@ -20,17 +21,9 @@
     "react-router-dom": "^6.28.0"
   },
   "devDependencies": {
-    "vite": "^5.4.10",
     "@vitejs/plugin-react": "^4.3.3",
-    "tailwindcss": "^3.4.14",
     "gh-pages": "^6.2.0",
-    "eslint": "^9.13.0",
-    "eslint-plugin-react": "^7.37.2",
-    "eslint-plugin-react-hooks": "^5.0.0"
-  },
-  "description": "A personal portfolio built with React and Vite, featuring a smooth deployment process via GitHub Pages.",
-  "main": "src/main.jsx",
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "tailwindcss": "^3.4.14",
+    "vite": "^5.4.10"
+  }
 }
