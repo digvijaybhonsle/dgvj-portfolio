@@ -48,18 +48,11 @@ const About = () => {
             </h3>
             <div className="flex space-x-6 mt-2">
               {/* Social Icons */}
-              {[{
-                href: "https://twitter.com/yourprofile",
-                icon: faTwitter,
-              },
-              {
-                href: "https://github.com/digvijaybhonsle",
-                icon: faGithub,
-              },
-              {
-                href: "https://www.linkedin.com/in/digvijay-bhonsle/",
-                icon: faLinkedin,
-              }].map(({ href, icon }, index) => (
+              {[
+                { href: "https://twitter.com/yourprofile", icon: faTwitter },
+                { href: "https://github.com/digvijaybhonsle", icon: faGithub },
+                { href: "https://www.linkedin.com/in/digvijay-bhonsle/", icon: faLinkedin },
+              ].map(({ href, icon }, index) => (
                 <div
                   key={index}
                   className="p-2 rounded-md bg-gray-200 transition-transform transform duration-300 hover:scale-110 hover:bg-gray-400"
